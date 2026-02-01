@@ -88,6 +88,8 @@ canvas {
     border-radius: 12px;
 }
 
+
+
 /* --- NAYA CONTENT CSS (For AdSense) --- */
 .seo-content {
     max-width: 800px;
@@ -108,6 +110,10 @@ footer a { color: #2563eb; text-decoration: none; margin: 0 10px; }
     .grid { grid-template-columns: 1fr; }
 }
 </style>
+
+
+
+
 </head>
 
 <body>
@@ -132,7 +138,50 @@ footer a { color: #2563eb; text-decoration: none; margin: 0 10px; }
     </div>
 </div>
 
-<div class="seo-content">
+<div class="seo-content" style="margin-top: 20px;">
+    <h2>Kaunsi Activity ke liye Kitni Speed Chahiye?</h2>
+    <p>Aapki internet speed aapke kaam par nirbhar karti hai. Neeche diye gaye table se samjhein ki aapko kitni Mbps ki zarurat hai:</p>
+    
+    <table style="width:100%; border-collapse: collapse; margin-top: 15px; text-align: left;">
+        <thead>
+            <tr style="background-color: #2563eb; color: white;">
+                <th style="padding: 12px; border: 1px solid #ddd;">Activity</th>
+                <th style="padding: 12px; border: 1px solid #ddd;">Recommended Speed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd;">WhatsApp/Basic Browsing</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">1 - 5 Mbps</td>
+            </tr>
+            <tr style="background-color: #f8fafc;">
+                <td style="padding: 10px; border: 1px solid #ddd;">SD Video Streaming (YouTube)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">5 - 10 Mbps</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd;">HD Video (1080p / Netflix)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">15 - 25 Mbps</td>
+            </tr>
+            <tr style="background-color: #f8fafc;">
+                <td style="padding: 10px; border: 1px solid #ddd;">4K Ultra HD Streaming</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">40 - 100 Mbps</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ddd;">Online Gaming (Low Latency)</td>
+                <td style="padding: 10px; border: 1px solid #ddd;">50+ Mbps & Low Ping</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+
+
+
+<div class="seo-content"style="margin-top: 20px;">
     <h2>Apna Internet Speed Kaise Check Karein?</h2>
     <p>Hamara <strong>SpeedTest Pro</strong> tool aapko real-time mein aapke connection ki sateek jankari deta hai. Bas "Check Speed Now" button par click karein aur kuch hi seconds mein apna Download speed, Upload speed aur Ping check karein.</p>
 
@@ -155,14 +204,16 @@ footer a { color: #2563eb; text-decoration: none; margin: 0 10px; }
 <footer>
     <p>&copy; 2026 SpeedTest Pro. All rights reserved.</p>
     <p>
-        <a href="/privacy">Privacy Policy</a> | 
+        <a href="/privacy">Privacy Policy</a> 
         <a href="/contact">Contact Us</a>
         <a href="/terms">terms</a>
     </p>
+
+    
 </footer>
 <script>
 // (Aapka Gauge aur startTest wala script yahan waisa hi rahega)
-var opts = {
+var opts = { 
     angle: 0,
     lineWidth: 0.2,
     radiusScale: 1,
